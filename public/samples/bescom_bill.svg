@@ -1,0 +1,153 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1350" width="1000" height="1350" style="background:#fcfbf9; font-family:'Noto Sans Kannada', 'Inter', system-ui, sans-serif;">
+  <defs>
+    <linearGradient id="headerGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0e3a53" />
+      <stop offset="100%" stop-color="#195375" />
+    </linearGradient>
+    <pattern id="grid" width="20" height="20" patternUnits="userSpaceOnUse">
+      <path d="M 20 0 L 0 0 0 20" fill="none" stroke="#f1ede4" stroke-width="0.5"/>
+    </pattern>
+  </defs>
+
+  <!-- Document Paper Canvas with Subtle Texture -->
+  <rect width="1000" height="1350" fill="#fcfbf7" />
+  <rect width="1000" height="1350" fill="url(#grid)" />
+  <rect x="25" y="25" width="950" height="1300" fill="none" stroke="#c8c1b3" stroke-width="1.5" stroke-dasharray="4,2" />
+
+  <!-- Header Banner -->
+  <rect x="40" y="40" width="920" height="120" rx="8" fill="url(#headerGrad)" />
+  
+  <!-- BESCOM Logo Emblems -->
+  <circle cx="105" cy="100" r="38" fill="#ffffff" opacity="0.95" />
+  <path d="M 105 75 L 115 95 L 98 95 L 110 120 L 96 102 L 108 102 Z" fill="#e65100" stroke="#bf360c" stroke-width="1" />
+  <circle cx="105" cy="100" r="35" fill="none" stroke="#0e3a53" stroke-width="2" />
+  
+  <text x="165" y="85" font-size="24" font-weight="700" fill="#ffffff">ಬೆಂಗಳೂರು ವಿದ್ಯುತ್ ಸರಬರಾಜು ಕಂಪನಿ ನಿಯಮಿತ</text>
+  <text x="165" y="112" font-size="16" font-weight="600" fill="#facc15" letter-spacing="1">BANGALORE ELECTRICITY SUPPLY COMPANY LIMITED (BESCOM)</text>
+  <text x="165" y="135" font-size="12" fill="#cbd5e1">ವಿದ್ಯುತ್ ಮಾಸಿಕ ಬಿಲ್ ಮತ್ತು ರಸೀದಿ (Monthly Electricity Tariff Bill cum Receipt)</text>
+
+  <!-- Government Emblem Right -->
+  <rect x="830" y="55" width="110" height="90" rx="4" fill="#ffffff" opacity="0.9" />
+  <text x="885" y="90" font-size="11" font-weight="700" fill="#0f172a" text-anchor="middle">ಕರ್ನಾಟಕ ಸರ್ಕಾರ</text>
+  <text x="885" y="108" font-size="10" fill="#475569" text-anchor="middle">GOVT OF KARNATAKA</text>
+  <text x="885" y="128" font-size="9" fill="#0284c7" font-weight="700" text-anchor="middle">ಗೃಹ ಜ್ಯೋತಿ</text>
+
+  <!-- Main Details Grid 1 -->
+  <rect x="40" y="175" width="450" height="150" rx="6" fill="#ffffff" stroke="#e2d8c3" stroke-width="1.5" />
+  <rect x="40" y="175" width="450" height="32" rx="6" fill="#f1f5f9" />
+  <text x="55" y="196" font-size="13" font-weight="700" fill="#1e293b">ಗ್ರಾಹಕರ ವಿವರಗಳು / CONSUMER PARTICULARS</text>
+  
+  <text x="55" y="230" font-size="12" fill="#64748b">ಆರ್.ಆರ್. ಸಂಖ್ಯೆ (RR No):</text>
+  <text x="210" y="230" font-size="14" font-weight="700" fill="#0f172a" font-family="'JetBrains Mono', monospace">E3-44192</text>
+
+  <text x="55" y="260" font-size="12" fill="#64748b">ಗ್ರಾಹಕರ ಹೆಸರು (Name):</text>
+  <text x="210" y="260" font-size="14" font-weight="700" fill="#0f172a">ಶ್ರೀ ಸುರೇಶ್ ಕುಮಾರ್ (Suresh Kumar)</text>
+
+  <text x="55" y="290" font-size="12" fill="#64748b">ದರಪಟ್ಟಿ / Tariff Cat:</text>
+  <text x="210" y="290" font-size="13" font-weight="600" fill="#0284c7">LT-2(a) Domestic Light &amp; Fan</text>
+
+  <!-- Main Details Grid 2 -->
+  <rect x="510" y="175" width="450" height="150" rx="6" fill="#ffffff" stroke="#e2d8c3" stroke-width="1.5" />
+  <rect x="510" y="175" width="450" height="32" rx="6" fill="#f1f5f9" />
+  <text x="525" y="196" font-size="13" font-weight="700" fill="#1e293b">ಖಾತೆ ವಿವರಗಳು / ACCOUNT IDENTIFIERS</text>
+
+  <text x="525" y="230" font-size="12" fill="#64748b">ಖಾತೆ ಐಡಿ (Account ID):</text>
+  <text x="690" y="230" font-size="15" font-weight="700" fill="#0f172a" font-family="'JetBrains Mono', monospace">9920148812</text>
+
+  <text x="525" y="260" font-size="12" fill="#64748b">ಉಪವಿಭಾಗ ಕಚೇರಿ (Subdivision):</text>
+  <text x="690" y="260" font-size="13" font-weight="600" fill="#334155">HSR Layout (S-12)</text>
+
+  <text x="525" y="290" font-size="12" fill="#64748b">ಮೀಟರ್ ಸಂಖ್ಯೆ (Meter SNo):</text>
+  <text x="690" y="290" font-size="13" font-weight="600" fill="#334155" font-family="'JetBrains Mono', monospace">LNT-881920-K</text>
+
+  <!-- Meter Readings Table -->
+  <rect x="40" y="340" width="920" height="180" rx="6" fill="#ffffff" stroke="#e2d8c3" stroke-width="1.5" />
+  <rect x="40" y="340" width="920" height="36" fill="#0f172a" rx="4" />
+  <text x="60" y="363" font-size="13" font-weight="700" fill="#ffffff">ಮಾಪನ ದಿನಾಂಕ</text>
+  <text x="240" y="363" font-size="13" font-weight="700" fill="#ffffff">ಹಿಂದಿನ ಓದುವಿಕೆ</text>
+  <text x="440" y="363" font-size="13" font-weight="700" fill="#ffffff">ಪ್ರಸ್ತುತ ಓದುವಿಕೆ</text>
+  <text x="640" y="363" font-size="13" font-weight="700" fill="#ffffff">ಬಳಕೆಯಾದ ಯೂನಿಟ್‌ಗಳು</text>
+  <text x="840" y="363" font-size="13" font-weight="700" fill="#ffffff">ಮೀಟರ್ ಸ್ಥಿತಿ</text>
+
+  <line x1="40" y1="420" x2="960" y2="420" stroke="#f1f5f9" stroke-width="1" />
+  <text x="60" y="405" font-size="13" font-weight="600" fill="#1e293b">02-11-2026</text>
+  <text x="240" y="405" font-size="14" font-weight="700" fill="#1e293b" font-family="'JetBrains Mono', monospace">14,202</text>
+  <text x="440" y="405" font-size="14" font-weight="700" fill="#1e293b" font-family="'JetBrains Mono', monospace">14,450</text>
+  <text x="640" y="405" font-size="16" font-weight="800" fill="#0369a1" font-family="'JetBrains Mono', monospace">248 kWh</text>
+  <text x="840" y="405" font-size="13" font-weight="600" fill="#16a34a">ಸಾಮಾನ್ಯ (Normal)</text>
+
+  <rect x="55" y="440" width="890" height="60" rx="4" fill="#f8fafc" stroke="#e2e8f0" />
+  <text x="75" y="465" font-size="12" fill="#475569">ಸಂಜೆ ಉತ್ತುಂಗ ಬಳಕೆ (Peak Consumption): 38 kWh | ಪವರ್ ಫ್ಯಾಕ್ಟರ್ (PF): 0.98 | ಮಂಜೂರಾದ ಲೋಡ್: 4.0 kW</text>
+  <text x="75" y="488" font-size="11" fill="#64748b">ಗೃಹಜ್ಯೋತಿ ಯೋಜನೆ ಅರ್ಹತೆ: ಸಕ್ರಿಯವಾಗಿದೆ (200 ಯೂನಿಟ್ ಸರ್ಕಾರದ ಸಬ್ಸಿಡಿ ಕಡಿತ ಒಳಗೊಂಡಿದೆ)</text>
+
+  <!-- Financial Calculation Block -->
+  <rect x="40" y="540" width="480" height="280" rx="6" fill="#ffffff" stroke="#e2d8c3" stroke-width="1.5" />
+  <rect x="40" y="540" width="480" height="32" rx="4" fill="#f8fafc" />
+  <text x="55" y="562" font-size="13" font-weight="700" fill="#334155">ಶುಲ್ಕ ವಿವರಣೆ / TARIFF CHARGES BREAKDOWN</text>
+  
+  <text x="55" y="600" font-size="13" fill="#475569">ನಿಗದಿತ ಶುಲ್ಕ (Fixed Charges - 4kW):</text>
+  <text x="460" y="600" font-size="13" font-weight="600" fill="#0f172a" text-anchor="end">₹ 340.00</text>
+
+  <text x="55" y="635" font-size="13" fill="#475569">ವಿದ್ಯುತ್ ಬಳಕೆ ಶುಲ್ಕ (Energy Charges - 248U):</text>
+  <text x="460" y="635" font-size="13" font-weight="600" fill="#0f172a" text-anchor="end">₹ 1,736.00</text>
+
+  <text x="55" y="670" font-size="13" fill="#475569">ಇಂಧನ ಹೊಂದಾಣಿಕೆ ಶುಲ್ಕ (FAC Charges):</text>
+  <text x="460" y="670" font-size="13" font-weight="600" fill="#0f172a" text-anchor="end">₹ 124.00</text>
+
+  <text x="55" y="705" font-size="13" fill="#475569">ವಿದ್ಯುತ್ ತೆರಿಗೆ (Electricity Tax 9%):</text>
+  <text x="460" y="705" font-size="13" font-weight="600" fill="#0f172a" text-anchor="end">₹ 185.00</text>
+
+  <text x="55" y="740" font-size="13" fill="#16a34a" font-weight="600">ಗೃಹಜ್ಯೋತಿ ರಿಯಾಯಿತಿ (Govt Subsidy):</text>
+  <text x="460" y="740" font-size="13" font-weight="700" fill="#16a34a" text-anchor="end">- ₹ 900.00</text>
+
+  <line x1="55" y1="760" x2="500" y2="760" stroke="#cbd5e1" stroke-width="1.5" />
+  <text x="55" y="795" font-size="14" font-weight="800" fill="#0f172a">ಒಟ್ಟು ಬಿಲ್ ಮೊತ್ತ (Total Bill):</text>
+  <text x="460" y="795" font-size="15" font-weight="800" fill="#0f172a" text-anchor="end">₹ 1,485.00</text>
+
+  <!-- Big Net Payable Box -->
+  <rect x="540" y="540" width="420" height="280" rx="8" fill="#fffbeb" stroke="#f59e0b" stroke-width="2" />
+  <rect x="540" y="540" width="420" height="40" rx="8" fill="#fef3c7" />
+  <text x="750" y="567" font-size="14" font-weight="800" fill="#92400e" text-anchor="middle">ಪಾವತಿಸಬೇಕಾದ ಅಂತಿಮ ಮೊತ್ತ / NET PAYABLE</text>
+  
+  <text x="750" y="635" font-size="38" font-weight="900" fill="#b45309" text-anchor="middle" font-family="'JetBrains Mono', monospace">₹ 1,485.00</text>
+  <text x="750" y="665" font-size="13" font-weight="600" fill="#78350f" text-anchor="middle">ರೂಪಾಯಿ ಒಂದು ಸಾವಿರದ ನಾಲ್ಕು ನೂರ ಎಂಬತ್ತೈದು ಮಾತ್ರ</text>
+
+  <line x1="570" y1="690" x2="930" y2="690" stroke="#fcd34d" stroke-width="1.5" />
+  <text x="750" y="725" font-size="12" fill="#78350f" text-anchor="middle">ಪಾವತಿಸಲು ನಿಗದಿತ ಅಂತಿಮ ದಿನಾಂಕ (DUE DATE):</text>
+  <text x="750" y="755" font-size="20" font-weight="800" fill="#dc2626" text-anchor="middle" font-family="'JetBrains Mono', monospace">18/11/2026</text>
+  <text x="750" y="785" font-size="11" fill="#991b1b" text-anchor="middle">ವಿಳಂಬ ಪಾವತಿ ದಂಡ: ₹ 50.00 / Disconnection notice after 15 days</text>
+
+  <!-- Official BESCOM Seal / Stamp -->
+  <g transform="translate(180, 940) rotate(-6)">
+    <circle cx="0" cy="0" r="68" fill="none" stroke="#2563eb" stroke-width="2.5" stroke-dasharray="4,2" />
+    <circle cx="0" cy="0" r="62" fill="none" stroke="#2563eb" stroke-width="1.5" />
+    <text x="0" y="-38" font-size="9" font-weight="700" fill="#2563eb" text-anchor="middle">BESCOM SUB-DIVISIONAL OFFICE</text>
+    <text x="0" y="-18" font-size="11" font-weight="800" fill="#1d4ed8" text-anchor="middle">HSR LAYOUT (S-12)</text>
+    <text x="0" y="5" font-size="12" font-weight="900" fill="#1e40af" text-anchor="middle">COMPUTER AUDITED</text>
+    <text x="0" y="24" font-size="9" font-weight="700" fill="#2563eb" text-anchor="middle">BENGALURU - 560102</text>
+    <text x="0" y="42" font-size="8" fill="#3b82f6" text-anchor="middle">DATE: 02-NOV-2026</text>
+  </g>
+
+  <!-- Barcode & QR Code Section -->
+  <g transform="translate(620, 860)">
+    <rect x="0" y="0" width="300" height="90" fill="#ffffff" stroke="#cbd5e1" stroke-width="1" />
+    <!-- Barcode lines -->
+    <path d="M 20 15 L 20 75 M 26 15 L 26 75 M 34 15 L 34 75 M 40 15 L 40 75 M 52 15 L 52 75 M 62 15 L 62 75 M 70 15 L 70 75 M 82 15 L 82 75 M 95 15 L 95 75 M 105 15 L 105 75 M 120 15 L 120 75 M 135 15 L 135 75 M 145 15 L 145 75 M 160 15 L 160 75 M 175 15 L 175 75 M 188 15 L 188 75 M 205 15 L 205 75 M 220 15 L 220 75 M 235 15 L 235 75 M 250 15 L 250 75 M 265 15 L 265 75 M 280 15 L 280 75" stroke="#0f172a" stroke-width="3" />
+    <text x="150" y="86" font-size="11" font-family="'JetBrains Mono', monospace" fill="#334155" text-anchor="middle">*9920148812-E344192*</text>
+  </g>
+
+  <!-- Authorized Signatory Signature -->
+  <g transform="translate(650, 1040)">
+    <path d="M 30 40 Q 60 10 90 35 T 140 20 T 190 45 Q 220 25 250 35" fill="none" stroke="#1e3a8a" stroke-width="2.5" />
+    <line x1="20" y1="55" x2="270" y2="55" stroke="#94a3b8" stroke-width="1" />
+    <text x="145" y="75" font-size="12" font-weight="700" fill="#334155" text-anchor="middle">ಸಹಾಯಕ ಕಾರ್ಯನಿರ್ವಾಹಕ ಎಂಜಿನಿಯರ್ (AEE)</text>
+    <text x="145" y="92" font-size="11" fill="#64748b" text-anchor="middle">Assistant Executive Engineer (Elec), BESCOM</text>
+  </g>
+
+  <!-- Legal Notes Footer -->
+  <rect x="40" y="1170" width="920" height="90" rx="4" fill="#f8fafc" stroke="#e2e8f0" />
+  <text x="60" y="1195" font-size="11" font-weight="700" fill="#475569">ಮುಖ್ಯ ಸೂಚನೆಗಳು (Important Information):</text>
+  <text x="60" y="1215" font-size="10.5" fill="#64748b">1. ಬಿಲ್ ಪಾವತಿಯನ್ನು ಬೆಸ್ಕಾಂ ಆನ್‌ಲೈನ್ ಪೋರ್ಟಲ್ www.bescom.karnataka.gov.in ಅಥವಾ ಅಧಿಕೃತ BBPS / UPI ಮೂಲಕ ಮಾಡಬಹುದು.</text>
+  <text x="60" y="1233" font-size="10.5" fill="#64748b">2. ಗ್ರಾಹಕ ಕುಂದುಕೊರತೆಗಳಿಗೆ 1912 ಬೆಸ್ಕಾಂ ಹೆಲ್ಪ್‌ಲೈನ್ ಸಂಖ್ಯೆಗೆ ಸಂಪರ್ಕಿಸಿ ಅಥವಾ WhatsApp ಸಂಖ್ಯೆ 9483191212 ಗೆ ಸಂದೇಶ ಕಳುಹಿಸಿ.</text>
+  <text x="60" y="1251" font-size="10.5" fill="#64748b">3. ಈ ಬಿಲ್ ಡಿಜಿಟಲ್ ರೂಪದಲ್ಲಿ ರಚಿತವಾಗಿದ್ದು ಯಾವುದೇ ನಕಲಿ ಮುದ್ರಣಕ್ಕೆ ದಂಡ ವಿಧಿಸಲಾಗುವುದು.</text>
+</svg>

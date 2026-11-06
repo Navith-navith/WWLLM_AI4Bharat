@@ -1,0 +1,6 @@
+{
+  "name": "Patram IndicDoc - Indian Document Understanding & VQA",
+  "description": "Production-grade Indian document understanding, field extraction, OCR/VQA, and translation suite powered by BharatGen Patram and AI4Bharat IndicTrans2.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

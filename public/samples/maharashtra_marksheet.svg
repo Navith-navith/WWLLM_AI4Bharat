@@ -1,0 +1,142 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1350" width="1000" height="1350" style="background:#fdfcf7; font-family:'Noto Sans Devanagari', 'Inter', system-ui, sans-serif;">
+  <defs>
+    <radialGradient id="watermark" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#f59e0b" stop-opacity="0.08" />
+      <stop offset="100%" stop-color="#f59e0b" stop-opacity="0" />
+    </radialGradient>
+  </defs>
+
+  <rect width="1000" height="1350" fill="#fdfcf7" />
+  
+  <!-- Security Certificate Border -->
+  <rect x="25" y="25" width="950" height="1300" fill="none" stroke="#1e3a8a" stroke-width="3" />
+  <rect x="33" y="33" width="934" height="1284" fill="none" stroke="#b45309" stroke-width="1.2" />
+  <circle cx="500" cy="650" r="280" fill="url(#watermark)" />
+
+  <!-- Header -->
+  <g transform="translate(500, 85)">
+    <circle cx="0" cy="0" r="34" fill="#ffffff" stroke="#1e3a8a" stroke-width="2" />
+    <path d="M -15 10 L 0 -15 L 15 10 Z" fill="#b45309" />
+    <text x="0" y="52" font-size="20" font-weight="800" fill="#1e3a8a" text-anchor="middle">महाराष्ट्र राज्य माध्यमिक व उच्च माध्यमिक शिक्षण मंडळ, पुणे</text>
+    <text x="0" y="74" font-size="14" font-weight="700" fill="#334155" text-anchor="middle">MAHARASHTRA STATE BOARD OF SECONDARY AND HIGHER SECONDARY EDUCATION, PUNE</text>
+    <text x="0" y="96" font-size="16" font-weight="800" fill="#b45309" text-anchor="middle">उच्च माध्यमिक प्रमाणपत्र परीक्षा (इयत्ता १२ वी) - गुणपत्रिका (STATEMENT OF MARKS)</text>
+  </g>
+
+  <!-- Candidate Metadata Box -->
+  <rect x="50" y="210" width="900" height="140" rx="6" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.5" />
+  
+  <text x="75" y="245" font-size="12" font-weight="700" fill="#64748b">बैठक क्रमांक (SEAT NO):</text>
+  <text x="240" y="245" font-size="16" font-weight="800" fill="#1e3a8a" font-family="'JetBrains Mono', monospace">M-2026-88412</text>
+
+  <text x="520" y="245" font-size="12" font-weight="700" fill="#64748b">केंद्र क्रमांक (CENTRE NO):</text>
+  <text x="720" y="245" font-size="14" font-weight="700" fill="#0f172a">11.15.004 (पुणे शहर)</text>
+
+  <text x="75" y="285" font-size="12" font-weight="700" fill="#64748b">विद्यार्थ्याचे नाव (CANDIDATE NAME):</text>
+  <text x="320" y="285" font-size="15" font-weight="800" fill="#0f172a">अनिकेत मनोहर जोशी (ANIKET MANOHAR JOSHI)</text>
+
+  <text x="75" y="325" font-size="12" font-weight="700" fill="#64748b">कनिष्ठ महाविद्यालय (COLLEGE):</text>
+  <text x="280" y="325" font-size="14" font-weight="600" fill="#334155">फर्ग्युसन कनिष्ठ महाविद्यालय, पुणे (FERGUSSON COLLEGE, PUNE)</text>
+
+  <!-- Marks Table -->
+  <g transform="translate(50, 375)">
+    <rect x="0" y="0" width="900" height="40" rx="4" fill="#1e3a8a" />
+    <text x="30" y="25" font-size="13" font-weight="700" fill="#ffffff">विषय संकेतांक</text>
+    <text x="140" y="25" font-size="13" font-weight="700" fill="#ffffff">विषयाचे नाव (SUBJECT NAME)</text>
+    <text x="440" y="25" font-size="13" font-weight="700" fill="#ffffff">कमाल गुण (MAX)</text>
+    <text x="580" y="25" font-size="13" font-weight="700" fill="#ffffff">किमान गुण (MIN)</text>
+    <text x="720" y="25" font-size="13" font-weight="700" fill="#ffffff">मिळालेले गुण (OBT)</text>
+    <text x="830" y="25" font-size="13" font-weight="700" fill="#ffffff">प्राविण्य</text>
+
+    <!-- Row 1: English -->
+    <rect x="0" y="40" width="900" height="42" fill="#ffffff" stroke="#f1f5f9" />
+    <text x="50" y="66" font-size="13" font-family="'JetBrains Mono', monospace">01</text>
+    <text x="140" y="66" font-size="13" font-weight="600" fill="#0f172a">इंग्रजी (ENGLISH)</text>
+    <text x="470" y="66" font-size="13">100</text>
+    <text x="600" y="66" font-size="13">35</text>
+    <text x="740" y="66" font-size="14" font-weight="700" fill="#0f172a">086</text>
+    <text x="835" y="66" font-size="12" font-weight="700" fill="#15803d">विशेष</text>
+
+    <!-- Row 2: Marathi -->
+    <rect x="0" y="82" width="900" height="42" fill="#f8fafc" stroke="#f1f5f9" />
+    <text x="50" y="108" font-size="13" font-family="'JetBrains Mono', monospace">02</text>
+    <text x="140" y="108" font-size="13" font-weight="600" fill="#0f172a">मराठी (MARATHI)</text>
+    <text x="470" y="108" font-size="13">100</text>
+    <text x="600" y="108" font-size="13">35</text>
+    <text x="740" y="108" font-size="14" font-weight="700" fill="#0f172a">089</text>
+    <text x="835" y="108" font-size="12" font-weight="700" fill="#15803d">विशेष</text>
+
+    <!-- Row 3: Physics -->
+    <rect x="0" y="124" width="900" height="42" fill="#ffffff" stroke="#f1f5f9" />
+    <text x="50" y="150" font-size="13" font-family="'JetBrains Mono', monospace">40</text>
+    <text x="140" y="150" font-size="13" font-weight="600" fill="#0f172a">भौतिकशास्त्र (PHYSICS)</text>
+    <text x="470" y="150" font-size="13">100</text>
+    <text x="600" y="150" font-size="13">35</text>
+    <text x="740" y="150" font-size="14" font-weight="800" fill="#1e3a8a">094</text>
+    <text x="835" y="150" font-size="12" font-weight="700" fill="#15803d">विशेष प्राविण्य</text>
+
+    <!-- Row 4: Chemistry -->
+    <rect x="0" y="166" width="900" height="42" fill="#f8fafc" stroke="#f1f5f9" />
+    <text x="50" y="192" font-size="13" font-family="'JetBrains Mono', monospace">54</text>
+    <text x="140" y="192" font-size="13" font-weight="600" fill="#0f172a">रसायनशास्त्र (CHEMISTRY)</text>
+    <text x="470" y="192" font-size="13">100</text>
+    <text x="600" y="192" font-size="13">35</text>
+    <text x="740" y="192" font-size="14" font-weight="700" fill="#0f172a">088</text>
+    <text x="835" y="192" font-size="12" font-weight="700" fill="#15803d">विशेष</text>
+
+    <!-- Row 5: Mathematics -->
+    <rect x="0" y="208" width="900" height="42" fill="#ffffff" stroke="#f1f5f9" />
+    <text x="50" y="234" font-size="13" font-family="'JetBrains Mono', monospace">71</text>
+    <text x="140" y="234" font-size="13" font-weight="600" fill="#0f172a">गणित व सांख्यिकी (MATHEMATICS)</text>
+    <text x="470" y="234" font-size="13">100</text>
+    <text x="600" y="234" font-size="13">35</text>
+    <text x="740" y="234" font-size="14" font-weight="800" fill="#1e3a8a">097</text>
+    <text x="835" y="234" font-size="12" font-weight="700" fill="#15803d">विशेष प्राविण्य</text>
+
+    <!-- Row 6: Computer Science -->
+    <rect x="0" y="250" width="900" height="42" fill="#f8fafc" stroke="#f1f5f9" />
+    <text x="50" y="276" font-size="13" font-family="'JetBrains Mono', monospace">89</text>
+    <text x="140" y="276" font-size="13" font-weight="600" fill="#0f172a">संगणक शास्त्र (COMPUTER SCIENCE)</text>
+    <text x="470" y="276" font-size="13">100</text>
+    <text x="600" y="276" font-size="13">35</text>
+    <text x="740" y="276" font-size="14" font-weight="700" fill="#0f172a">088</text>
+    <text x="835" y="276" font-size="12" font-weight="700" fill="#15803d">विशेष</text>
+
+    <!-- Total Row -->
+    <rect x="0" y="292" width="900" height="50" fill="#fef3c7" stroke="#b45309" stroke-width="1.5" />
+    <text x="50" y="323" font-size="14" font-weight="800" fill="#78350f">एकूण गुण (GRAND TOTAL):</text>
+    <text x="460" y="323" font-size="14" font-weight="700" fill="#78350f">600</text>
+    <text x="720" y="325" font-size="18" font-weight="900" fill="#1e3a8a" font-family="'JetBrains Mono', monospace">542 / 600</text>
+    <text x="830" y="323" font-size="13" font-weight="800" fill="#15803d">उत्तीर्ण (PASS)</text>
+  </g>
+
+  <!-- Big Result Callout -->
+  <rect x="50" y="745" width="900" height="90" rx="8" fill="#f0fdf4" stroke="#16a34a" stroke-width="2" />
+  <text x="80" y="785" font-size="15" font-weight="700" fill="#166534">टक्केवारी (PERCENTAGE): <tspan font-size="22" font-weight="900" fill="#15803d" font-family="'JetBrains Mono', monospace">90.33 %</tspan></text>
+  <text x="500" y="785" font-size="15" font-weight="700" fill="#166534">अंतिम श्रेणी: <tspan font-size="18" font-weight="900" fill="#15803d">प्रथम श्रेणी सह विशेष योग्यता (DISTINCTION)</tspan></text>
+  <text x="80" y="818" font-size="12" fill="#14532d">अक्षरी गुण: पाचशे बेचाळीस गुण मात्र (FIVE HUNDRED AND FORTY TWO ONLY)</text>
+
+  <!-- Official Board Stamp -->
+  <g transform="translate(240, 990) rotate(-4)">
+    <circle cx="0" cy="0" r="68" fill="none" stroke="#1e3a8a" stroke-width="2" stroke-dasharray="3,1" />
+    <circle cx="0" cy="0" r="61" fill="none" stroke="#1e3a8a" stroke-width="1" />
+    <text x="0" y="-35" font-size="9" font-weight="700" fill="#1e3a8a" text-anchor="middle">पुणे विभागीय मंडळ, पुणे</text>
+    <text x="0" y="-15" font-size="11" font-weight="800" fill="#1e40af" text-anchor="middle">DIV. SECRETARY PUNE</text>
+    <text x="0" y="8" font-size="12" font-weight="900" fill="#1d4ed8" text-anchor="middle">VERIFIED &amp; SEALED</text>
+    <text x="0" y="28" font-size="9" font-weight="600" fill="#1e3a8a" text-anchor="middle">HSC EXAM 2026</text>
+    <text x="0" y="44" font-size="8" fill="#2563eb" text-anchor="middle">DATE: 28-05-2026</text>
+  </g>
+
+  <!-- Secretary Signatures -->
+  <g transform="translate(680, 970)">
+    <path d="M 20 40 Q 55 10 90 35 T 140 20 T 180 40" fill="none" stroke="#000000" stroke-width="2.2" />
+    <line x1="10" y1="55" x2="230" y2="55" stroke="#94a3b8" stroke-width="1" />
+    <text x="120" y="75" font-size="12" font-weight="700" fill="#0f172a" text-anchor="middle">विभागीय सचिव</text>
+    <text x="120" y="92" font-size="11" fill="#64748b" text-anchor="middle">Divisional Secretary, MSBSHSE</text>
+  </g>
+
+  <!-- Security Verification Code Footer -->
+  <rect x="50" y="1170" width="900" height="90" rx="4" fill="#f8fafc" stroke="#e2e8f0" />
+  <text x="70" y="1198" font-size="11" font-weight="700" fill="#475569">सुरक्षा व पडताळणी सूचना (SECURITY VERIFICATION):</text>
+  <text x="70" y="1220" font-size="10.5" fill="#64748b">1. डिजी लॉकर (DigiLocker) वरून अधिकृत डिजिटल प्रत मिळवण्यासाठी संदर्भ क्रमांक HSC-PUN-2026-091823 वापरा.</text>
+  <text x="70" y="1238" font-size="10.5" fill="#64748b">2. या गुणपत्रिकेतील कोणत्याही खाडाखोडीस कायदेशीर गुन्हा मानले जाईल. अधिक माहिती: mahahsscboard.in</text>
+</svg>

@@ -1,0 +1,149 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1350" width="1000" height="1350" style="background:#f9fafb; font-family:'Noto Sans Tamil', 'Inter', system-ui, sans-serif;">
+  <defs>
+    <linearGradient id="tnHeader" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#047857" />
+      <stop offset="100%" stop-color="#065f46" />
+    </linearGradient>
+  </defs>
+
+  <rect width="1000" height="1350" fill="#f8fafc" />
+  <rect x="25" y="25" width="950" height="1300" fill="#ffffff" stroke="#cbd5e1" stroke-width="2" rx="12" />
+
+  <!-- Card Top Banner -->
+  <rect x="40" y="40" width="920" height="130" rx="8" fill="url(#tnHeader)" />
+
+  <!-- Temple Crest Emblem -->
+  <circle cx="105" cy="105" r="40" fill="#ffffff" />
+  <path d="M 105 75 L 125 115 L 85 115 Z" fill="#047857" />
+  <circle cx="105" cy="105" r="36" fill="none" stroke="#047857" stroke-width="2" />
+
+  <text x="170" y="85" font-size="22" font-weight="700" fill="#ffffff">தமிழ்நாடு அரசு - பொது விநியோகத் திட்டம்</text>
+  <text x="170" y="112" font-size="15" font-weight="600" fill="#a7f3d0">GOVERNMENT OF TAMIL NADU - CIVIL SUPPLIES &amp; CONSUMER PROTECTION</text>
+  <text x="170" y="138" font-size="13" font-weight="700" fill="#fef08a">மின்னணு குடும்ப அட்டை (SMART RATION CARD - TNePDS)</text>
+
+  <!-- Big Category Stamp Top Right -->
+  <rect x="800" y="60" width="140" height="90" rx="6" fill="#fef08a" stroke="#ca8a04" stroke-width="2" />
+  <text x="870" y="95" font-size="24" font-weight="900" fill="#854d0e" text-anchor="middle" font-family="'JetBrains Mono', monospace">PHH</text>
+  <text x="870" y="118" font-size="12" font-weight="800" fill="#854d0e" text-anchor="middle">அரிசி அட்டை</text>
+  <text x="870" y="136" font-size="10" fill="#a16207" text-anchor="middle">RICE CARD</text>
+
+  <!-- Card Details Primary Box -->
+  <rect x="40" y="190" width="600" height="340" rx="8" fill="#ffffff" stroke="#e2e8f0" stroke-width="1.5" />
+  
+  <text x="65" y="230" font-size="12" font-weight="600" fill="#64748b">குடும்ப அட்டை எண் / CARD NO:</text>
+  <text x="290" y="230" font-size="16" font-weight="800" fill="#0f172a" font-family="'JetBrains Mono', monospace">03/G/0849201</text>
+
+  <text x="65" y="275" font-size="12" font-weight="600" fill="#64748b">குடும்பத் தலைவர் பெயர் / HEAD OF FAMILY:</text>
+  <text x="290" y="275" font-size="15" font-weight="700" fill="#0f172a">மு. செல்வம் (M. Selvam)</text>
+
+  <text x="65" y="320" font-size="12" font-weight="600" fill="#64748b">தந்தை / கணவர் பெயர் / RELATION:</text>
+  <text x="290" y="320" font-size="14" fill="#334155">முருகேசன் (Murugesan)</text>
+
+  <text x="65" y="365" font-size="12" font-weight="600" fill="#64748b">நியாயவிலைக் கடை எண் / FPS SHOP CODE:</text>
+  <text x="290" y="365" font-size="15" font-weight="700" fill="#047857" font-family="'JetBrains Mono', monospace">02AC004PN</text>
+
+  <text x="65" y="410" font-size="12" font-weight="600" fill="#64748b">மண்டலம் / வட்டம் / TALUK:</text>
+  <text x="290" y="410" font-size="14" fill="#334155">அண்ணா நகர் வட்டம் (Zone 08)</text>
+
+  <text x="65" y="455" font-size="12" font-weight="600" fill="#64748b">முகவரி / RESIDENTIAL ADDRESS:</text>
+  <text x="290" y="455" font-size="13" fill="#334155">கதவு எண் 45, 2வது குறுக்குத் தெரு,</text>
+  <text x="290" y="475" font-size="13" fill="#334155">அண்ணா நகர் மேற்கு, சென்னை - 600040</text>
+
+  <text x="65" y="505" font-size="12" font-weight="600" fill="#64748b">பதிவு செய்யப்பட்ட அலைபேசி எண்:</text>
+  <text x="290" y="505" font-size="13" font-family="'JetBrains Mono', monospace" fill="#0f172a">XXXXXX4892</text>
+
+  <!-- Photo Box & QR Section -->
+  <rect x="665" y="190" width="295" height="340" rx="8" fill="#f8fafc" stroke="#e2e8f0" stroke-width="1.5" />
+  
+  <!-- Candidate Photo Representation -->
+  <rect x="732" y="215" width="160" height="180" rx="4" fill="#e2e8f0" stroke="#cbd5e1" />
+  <circle cx="812" cy="275" r="32" fill="#94a3b8" />
+  <path d="M 762 360 C 762 320 862 320 862 360 Z" fill="#64748b" />
+  <text x="812" y="380" font-size="11" fill="#475569" text-anchor="middle">மு. செல்வம்</text>
+
+  <text x="812" y="445" font-size="11" font-weight="700" fill="#047857" text-anchor="middle">ஆதಾರ್ இணைக்கப்பட்டது</text>
+  <text x="812" y="465" font-size="10" fill="#64748b" text-anchor="middle">Aadhaar Bio-Authenticated</text>
+  <text x="812" y="500" font-size="11" font-weight="800" fill="#0f172a" text-anchor="middle">அட்டை வழங்கிய தேதி: 19-03-2026</text>
+
+  <!-- Family Members Table -->
+  <g transform="translate(40, 560)">
+    <rect x="0" y="0" width="920" height="40" rx="6" fill="#065f46" />
+    <text x="20" y="25" font-size="13" font-weight="700" fill="#ffffff">வ.எண்</text>
+    <text x="80" y="25" font-size="13" font-weight="700" fill="#ffffff">உறுப்பினர் பெயர் (Family Member)</text>
+    <text x="350" y="25" font-size="13" font-weight="700" fill="#ffffff">உறவுமுறை (Relation)</text>
+    <text x="540" y="25" font-size="13" font-weight="700" fill="#ffffff">வயது (Age)</text>
+    <text x="660" y="25" font-size="13" font-weight="700" fill="#ffffff">ஆதார் நிலை (Aadhaar UID)</text>
+    <text x="830" y="25" font-size="13" font-weight="700" fill="#ffffff">நிலை (Status)</text>
+
+    <!-- Row 1 -->
+    <rect x="0" y="40" width="920" height="45" fill="#ffffff" stroke="#f1f5f9" />
+    <text x="30" y="68" font-size="13" font-weight="600" fill="#0f172a">1</text>
+    <text x="80" y="68" font-size="13" font-weight="700" fill="#0f172a">மு. செல்வம் (M. Selvam)</text>
+    <text x="350" y="68" font-size="13" fill="#334155">குடும்பத் தலைவர் (Head)</text>
+    <text x="550" y="68" font-size="13" fill="#334155">46</text>
+    <text x="660" y="68" font-size="12" fill="#15803d" font-weight="600">XXXX-XXXX-8910 (இணைக்கப்பட்டது)</text>
+    <text x="840" y="68" font-size="12" font-weight="700" fill="#15803d">செயலில்</text>
+
+    <!-- Row 2 -->
+    <rect x="0" y="85" width="920" height="45" fill="#f8fafc" stroke="#f1f5f9" />
+    <text x="30" y="113" font-size="13" font-weight="600" fill="#0f172a">2</text>
+    <text x="80" y="113" font-size="13" font-weight="700" fill="#0f172a">எஸ். லட்சுமி (S. Lakshmi)</text>
+    <text x="350" y="113" font-size="13" fill="#334155">மனைவி (Wife)</text>
+    <text x="550" y="113" font-size="13" fill="#334155">41</text>
+    <text x="660" y="113" font-size="12" fill="#15803d" font-weight="600">XXXX-XXXX-3341 (இணைக்கப்பட்டது)</text>
+    <text x="840" y="113" font-size="12" font-weight="700" fill="#15803d">செயலில்</text>
+
+    <!-- Row 3 -->
+    <rect x="0" y="130" width="920" height="45" fill="#ffffff" stroke="#f1f5f9" />
+    <text x="30" y="158" font-size="13" font-weight="600" fill="#0f172a">3</text>
+    <text x="80" y="158" font-size="13" font-weight="700" fill="#0f172a">எஸ். கார்த்திக் (S. Karthik)</text>
+    <text x="350" y="158" font-size="13" fill="#334155">மகன் (Son)</text>
+    <text x="550" y="158" font-size="13" fill="#334155">17</text>
+    <text x="660" y="158" font-size="12" fill="#15803d" font-weight="600">XXXX-XXXX-5520 (இணைக்கப்பட்டது)</text>
+    <text x="840" y="158" font-size="12" font-weight="700" fill="#15803d">செயலில்</text>
+
+    <!-- Row 4 -->
+    <rect x="0" y="175" width="920" height="45" fill="#f8fafc" stroke="#f1f5f9" />
+    <text x="30" y="203" font-size="13" font-weight="600" fill="#0f172a">4</text>
+    <text x="80" y="203" font-size="13" font-weight="700" fill="#0f172a">எஸ். பிரியா (S. Priya)</text>
+    <text x="350" y="203" font-size="13" fill="#334155">மகள் (Daughter)</text>
+    <text x="550" y="203" font-size="13" fill="#334155">14</text>
+    <text x="660" y="203" font-size="12" fill="#15803d" font-weight="600">XXXX-XXXX-9021 (இணைக்கப்பட்டது)</text>
+    <text x="840" y="203" font-size="12" font-weight="700" fill="#15803d">செயலில்</text>
+  </g>
+
+  <!-- Commodity Entitlement Table -->
+  <g transform="translate(40, 810)">
+    <rect x="0" y="0" width="920" height="130" rx="8" fill="#f0fdf4" stroke="#86efac" stroke-width="1.5" />
+    <text x="25" y="32" font-size="14" font-weight="700" fill="#166534">மாதாந்திர அத்தியாவசியப் பொருட்கள் ஒதுக்கீடு (Monthly Entitlement Quota):</text>
+    
+    <text x="40" y="70" font-size="13" font-weight="600" fill="#0f172a">• அரிசி (Rice): <tspan font-weight="800" fill="#15803d">20 கிலோ (இலவசம் / Free of Cost)</tspan></text>
+    <text x="450" y="70" font-size="13" font-weight="600" fill="#0f172a">• சர்க்கரை (Sugar): <tspan font-weight="700" fill="#0f172a">2 கிலோ (₹ 25.00/கிலோ)</tspan></text>
+    
+    <text x="40" y="105" font-size="13" font-weight="600" fill="#0f172a">• துவரம் பருப்பு (Toor Dal): <tspan font-weight="700" fill="#0f172a">1 கிலோ (₹ 30.00)</tspan></text>
+    <text x="450" y="105" font-size="13" font-weight="600" fill="#0f172a">• பாமாயில் (Palmolein Oil): <tspan font-weight="700" fill="#0f172a">1 பாக்கெட் (₹ 25.00)</tspan></text>
+  </g>
+
+  <!-- Official Seal -->
+  <g transform="translate(200, 1070) rotate(-5)">
+    <circle cx="0" cy="0" r="65" fill="none" stroke="#047857" stroke-width="2" stroke-dasharray="4,2" />
+    <text x="0" y="-35" font-size="10" font-weight="700" fill="#047857" text-anchor="middle">வட்ட வழங்கல் அலுவலர்</text>
+    <text x="0" y="-15" font-size="12" font-weight="800" fill="#065f46" text-anchor="middle">அண்ணா நகர் வட்டம்</text>
+    <text x="0" y="8" font-size="13" font-weight="900" fill="#047857" text-anchor="middle">சரிபார்க்கப்பட்டது</text>
+    <text x="0" y="28" font-size="10" fill="#047857" text-anchor="middle">சென்னை மாவட்டம்</text>
+    <text x="0" y="46" font-size="9" fill="#059669" text-anchor="middle">19-03-2026</text>
+  </g>
+
+  <!-- Authorized Signatory -->
+  <g transform="translate(680, 1040)">
+    <path d="M 20 40 Q 55 10 90 35 T 140 20 T 180 40" fill="none" stroke="#1e3a8a" stroke-width="2.5" />
+    <line x1="10" y1="55" x2="210" y2="55" stroke="#94a3b8" stroke-width="1" />
+    <text x="110" y="75" font-size="12" font-weight="700" fill="#1e293b" text-anchor="middle">உதவி ஆணையர் (உணவு)</text>
+    <text x="110" y="92" font-size="11" fill="#64748b" text-anchor="middle">Assistant Commissioner of Civil Supplies</text>
+  </g>
+
+  <!-- Help Desk Footer -->
+  <rect x="40" y="1190" width="920" height="70" rx="4" fill="#f8fafc" stroke="#e2e8f0" />
+  <text x="60" y="1215" font-size="11" font-weight="700" fill="#475569">புகார் மற்றும் உதவிக்கு (TNePDS Helpline): 1967 அல்லது 1800-425-5901</text>
+  <text x="60" y="1238" font-size="10.5" fill="#64748b">வலைத்தளம்: www.tnpds.gov.in | செயலியில் பொருட்கள் இருப்பு விவரங்களை அறிய TNePDS செயலி பதிவிறக்கம் செய்யவும்.</text>
+</svg>

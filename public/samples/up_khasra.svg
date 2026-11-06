@@ -1,0 +1,127 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1350" width="1000" height="1350" style="background:#fefdf8; font-family:'Noto Sans Devanagari', 'Inter', system-ui, sans-serif;">
+  <defs>
+    <pattern id="stampPat" width="40" height="40" patternUnits="userSpaceOnUse">
+      <circle cx="20" cy="20" r="1" fill="#cbd5e1" opacity="0.3"/>
+    </pattern>
+  </defs>
+
+  <rect width="1000" height="1350" fill="#fcf9ee" />
+  <rect width="1000" height="1350" fill="url(#stampPat)" />
+  
+  <!-- Outer Legal Border -->
+  <rect x="25" y="25" width="950" height="1300" fill="none" stroke="#78350f" stroke-width="2" />
+  <rect x="32" y="32" width="936" height="1286" fill="none" stroke="#b45309" stroke-width="0.8" />
+
+  <!-- Top State Seal & Title -->
+  <g transform="translate(500, 90)">
+    <!-- Ashoka Lion Emblem silhouette -->
+    <circle cx="0" cy="0" r="32" fill="#fef3c7" stroke="#78350f" stroke-width="1.5" />
+    <path d="M -12 12 L 0 -18 L 12 12 Z M -6 4 L 6 4" fill="none" stroke="#78350f" stroke-width="2" />
+    <text x="0" y="52" font-size="20" font-weight="800" fill="#78350f" text-anchor="middle">उत्तर प्रदेश सरकार - राजस्व परिषद</text>
+    <text x="0" y="74" font-size="15" font-weight="700" fill="#1e293b" text-anchor="middle">उद्धरण खतौनी (अधिकार अभिलेख - RoR)</text>
+    <text x="0" y="94" font-size="12" fill="#64748b" text-anchor="middle">उत्तर प्रदेश राजस्व संहिता, 2006 की धारा 31 एवं 32 के अन्तर्गत कंप्यूटरीकृत प्रति</text>
+  </g>
+
+  <!-- District / Tehsil Metadata Box -->
+  <rect x="50" y="210" width="900" height="70" rx="4" fill="#ffffff" stroke="#d97706" stroke-width="1.2" />
+  <line x1="50" y1="245" x2="950" y2="245" stroke="#fed7aa" stroke-width="1" />
+  
+  <text x="70" y="233" font-size="12" font-weight="700" fill="#78350f">जनपद (District): <tspan font-weight="400" fill="#0f172a">लखनऊ</tspan></text>
+  <text x="300" y="233" font-size="12" font-weight="700" fill="#78350f">तहसील (Tehsil): <tspan font-weight="400" fill="#0f172a">सदर</tspan></text>
+  <text x="520" y="233" font-size="12" font-weight="700" fill="#78350f">परगना (Pargana): <tspan font-weight="400" fill="#0f172a">सदर</tspan></text>
+  <text x="730" y="233" font-size="12" font-weight="700" fill="#78350f">ग्राम (Village): <tspan font-weight="400" fill="#0f172a">रामपुर (कोड: 14209)</tspan></text>
+
+  <text x="70" y="268" font-size="12" font-weight="700" fill="#78350f">फसली वर्ष (Fasli Year): <tspan font-weight="400" fill="#0f172a">1431-1436 (वर्ष 2024-2029)</tspan></text>
+  <text x="440" y="268" font-size="12" font-weight="700" fill="#78350f">भाग: <tspan font-weight="400" fill="#0f172a">1</tspan></text>
+  <text x="640" y="268" font-size="12" font-weight="700" fill="#78350f">जारी दिनांक: <tspan font-weight="700" fill="#0f172a">14-10-2026 11:42 AM</tspan></text>
+
+  <!-- Main RoR Table -->
+  <g transform="translate(50, 305)">
+    <!-- Table Header -->
+    <rect x="0" y="0" width="900" height="75" fill="#fef3c7" stroke="#b45309" stroke-width="1.2" />
+    <line x1="110" y1="0" x2="110" y2="75" stroke="#b45309" stroke-width="1" />
+    <line x1="390" y1="0" x2="390" y2="75" stroke="#b45309" stroke-width="1" />
+    <line x1="520" y1="0" x2="520" y2="75" stroke="#b45309" stroke-width="1" />
+    <line x1="650" y1="0" x2="650" y2="75" stroke="#b45309" stroke-width="1" />
+
+    <text x="55" y="32" font-size="12" font-weight="700" fill="#78350f" text-anchor="middle">खाता सं.</text>
+    <text x="55" y="52" font-size="10" fill="#92400e" text-anchor="middle">(कॉलम 1)</text>
+
+    <text x="250" y="32" font-size="12" font-weight="700" fill="#78350f" text-anchor="middle">काश्तकार / खातेदार का नाम व पिता</text>
+    <text x="250" y="52" font-size="10" fill="#92400e" text-anchor="middle">तथा निवास स्थान (कॉलम 2)</text>
+
+    <text x="455" y="32" font-size="12" font-weight="700" fill="#78350f" text-anchor="middle">खसरा / गाटा सं.</text>
+    <text x="455" y="52" font-size="10" fill="#92400e" text-anchor="middle">(कॉलम 3)</text>
+
+    <text x="585" y="32" font-size="12" font-weight="700" fill="#78350f" text-anchor="middle">क्षेत्रफल (हे.)</text>
+    <text x="585" y="52" font-size="10" fill="#92400e" text-anchor="middle">(कॉलम 4)</text>
+
+    <text x="775" y="32" font-size="12" font-weight="700" fill="#78350f" text-anchor="middle">आदेश / नामांतरण विवरण (टिप्पणी)</text>
+    <text x="775" y="52" font-size="10" fill="#92400e" text-anchor="middle">(कॉलम 7-12)</text>
+
+    <!-- Table Rows -->
+    <rect x="0" y="75" width="900" height="280" fill="#ffffff" stroke="#b45309" stroke-width="1.2" />
+    <line x1="110" y1="75" x2="110" y2="355" stroke="#fed7aa" stroke-width="1" />
+    <line x1="390" y1="75" x2="390" y2="355" stroke="#fed7aa" stroke-width="1" />
+    <line x1="520" y1="75" x2="520" y2="355" stroke="#fed7aa" stroke-width="1" />
+    <line x1="650" y1="75" x2="650" y2="355" stroke="#fed7aa" stroke-width="1" />
+
+    <!-- Col 1 -->
+    <text x="55" y="125" font-size="18" font-weight="800" fill="#0f172a" text-anchor="middle" font-family="'JetBrains Mono', monospace">00142</text>
+
+    <!-- Col 2 -->
+    <text x="130" y="115" font-size="15" font-weight="700" fill="#0f172a">रामेश्वर दयाल पुत्र किशोरी लाल</text>
+    <text x="130" y="142" font-size="12" fill="#475569">निवासी: ग्राम रामपुर, परगना सदर</text>
+    <text x="130" y="170" font-size="11.5" font-weight="600" fill="#0284c7">श्रेणी: 1-क (भूमिधर जो संक्रमणीय भूमि रखते हों)</text>
+    <text x="130" y="195" font-size="12" fill="#64748b">हिस्सा: 1/1 (पूर्ण स्वामित्व)</text>
+
+    <!-- Col 3 -->
+    <text x="455" y="125" font-size="16" font-weight="800" fill="#0f172a" text-anchor="middle" font-family="'JetBrains Mono', monospace">384/2</text>
+    <text x="455" y="155" font-size="11" fill="#64748b" text-anchor="middle">(एकल गाटा)</text>
+
+    <!-- Col 4 -->
+    <text x="585" y="125" font-size="16" font-weight="800" fill="#0369a1" text-anchor="middle" font-family="'JetBrains Mono', monospace">1.4280</text>
+    <text x="585" y="150" font-size="11" fill="#64748b" text-anchor="middle">हेक्टेयर</text>
+
+    <!-- Col 5 (Mutation / Remarks) -->
+    <text x="670" y="110" font-size="11.5" font-weight="700" fill="#15803d">दाखिल-खारिज आदेश स्वीकृत:</text>
+    <text x="670" y="132" font-size="11" fill="#334155">न्यायालय तहसीलदार सदर, वाद संख्या</text>
+    <text x="670" y="152" font-size="11" font-weight="700" fill="#0f172a">T20261045020188</text>
+    <text x="670" y="172" font-size="11" fill="#334155">दिनांक 12-08-2026 द्वारा विक्रेता</text>
+    <text x="670" y="192" font-size="11" fill="#334155">मंगत राम का नाम खारिज होकर</text>
+    <text x="670" y="212" font-size="11" font-weight="700" fill="#1e293b">रामेश्वर दयाल का नाम दर्ज हुआ।</text>
+    <text x="670" y="240" font-size="10.5" fill="#dc2626">देय मालगुजारी (लगान): ₹ 125.50</text>
+  </g>
+
+  <!-- Summary Box Under Table -->
+  <rect x="50" y="695" width="900" height="120" rx="4" fill="#ffffff" stroke="#cbd5e1" stroke-width="1" />
+  <text x="75" y="730" font-size="13" font-weight="700" fill="#0f172a">खाता सारांश (Account Summary Overview):</text>
+  <text x="75" y="758" font-size="12" fill="#475569">कुल गाटे: 1 | कुल क्षेत्रफल: 1.4280 हे. (लगभग 5.64 बीघा) | भू-राजस्व देय: ₹ 125.50 प्रतिवर्ष</text>
+  <text x="75" y="782" font-size="12" fill="#475569">ऋण बंधक विवरण (Mortgage / Encumbrance): कोई प्रविष्टि नहीं (भूमि भारमुक्त है)</text>
+
+  <!-- Official Revenue Seal (Tehsil Stamp) -->
+  <g transform="translate(250, 950) rotate(-4)">
+    <circle cx="0" cy="0" r="70" fill="none" stroke="#dc2626" stroke-width="2" stroke-dasharray="3,1" />
+    <circle cx="0" cy="0" r="63" fill="none" stroke="#dc2626" stroke-width="1.2" />
+    <text x="0" y="-38" font-size="10" font-weight="700" fill="#dc2626" text-anchor="middle">तहसीलदार कार्यालय - सदर</text>
+    <text x="0" y="-18" font-size="12" font-weight="800" fill="#b91c1c" text-anchor="middle">जनपद लखनऊ (उ.प्र.)</text>
+    <text x="0" y="5" font-size="12" font-weight="900" fill="#991b1b" text-anchor="middle">प्रमाणित प्रति</text>
+    <text x="0" y="25" font-size="9" font-weight="600" fill="#dc2626" text-anchor="middle">भूलेख कंप्यूटर केंद्र</text>
+    <text x="0" y="44" font-size="9" fill="#ef4444" text-anchor="middle">दिनांक: 14/10/2026</text>
+  </g>
+
+  <!-- Registrar Signature -->
+  <g transform="translate(680, 930)">
+    <path d="M 20 45 Q 60 15 100 40 T 150 25 T 200 45" fill="none" stroke="#1e3a8a" stroke-width="2.5" />
+    <line x1="10" y1="65" x2="230" y2="65" stroke="#94a3b8" stroke-width="1" />
+    <text x="120" y="85" font-size="12" font-weight="700" fill="#1e293b" text-anchor="middle">रजिस्ट्रार कानूनगो / राजस्व निरीक्षक</text>
+    <text x="120" y="102" font-size="11" fill="#64748b" text-anchor="middle">तहसील सदर, जनपद लखनऊ</text>
+  </g>
+
+  <!-- Disclaimer Footer -->
+  <rect x="50" y="1170" width="900" height="90" rx="4" fill="#f8fafc" stroke="#e2e8f0" />
+  <text x="70" y="1195" font-size="11" font-weight="700" fill="#475569">महत्वपूर्ण टिप्पणी (Legal Disclaimer):</text>
+  <text x="70" y="1215" font-size="10" fill="#64748b">1. यह खतौनी केवल सूचना हेतु है। इसका उपयोग न्यायालय में साक्ष्य हेतु प्रमाणित प्रति के बिना मान्य नहीं होगा।</text>
+  <text x="70" y="1233" font-size="10" fill="#64748b">2. डिजिटल हस्ताक्षरित खतौनी हेतु upbhulekh.gov.in पर आवेदन करें। संदर्भ सं. UP-ROR-2026-990142.</text>
+  <text x="70" y="1251" font-size="10" fill="#64748b">3. किसी भी प्रविष्टि में त्रुटि होने पर धारा 38 के तहत उपजिलाधिकारी न्यायालय में प्रार्थना पत्र दें।</text>
+</svg>
