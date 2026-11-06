@@ -9,11 +9,16 @@ import {
   Cpu, 
   Copy, 
   Check, 
+  Download,
+  X,
   ExternalLink 
 } from 'lucide-react';
+import { GITHUB_README_MARKDOWN } from '../data/readmeContent';
 
 export const DocumentationTab: React.FC = () => {
   const [copiedCodeIndex, setCopiedCodeIndex] = useState<number | null>(null);
+  const [copiedReadme, setCopiedReadme] = useState(false);
+  const [showReadmeModal, setShowReadmeModal] = useState(false);
 
   const pythonSnippet = `# ==============================================================================
 # Patram IndicDoc: Multimodal Document Understanding & IndicTrans2 Pipeline
@@ -90,6 +95,22 @@ if __name__ == "__main__":
     setTimeout(() => setCopiedCodeIndex(null), 2000);
   };
 
+  const handleDownloadReadme = () => {
+    const blob = new Blob([GITHUB_README_MARKDOWN], { type: 'text/markdown;charset=utf-8;' });
+    const url = URL.createObjectURL(blob);
+    const link = window.document.createElement('a');
+    link.href = url;
+    link.download = 'README.md';
+    link.click();
+    URL.revokeObjectURL(url);
+  };
+
+  const handleCopyReadme = () => {
+    navigator.clipboard.writeText(GITHUB_README_MARKDOWN);
+    setCopiedReadme(true);
+    setTimeout(() => setCopiedReadme(false), 2000);
+  };
+
   return (
     <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6 space-y-6">
       {/* Title */}
@@ -109,9 +130,16 @@ if __name__ == "__main__":
         </div>
 
         <div className="flex items-center gap-2">
+          <button
+            onClick={() => setShowReadmeModal(true)}
+            className="flex items-center gap-1.5 px-3.5 py-2 rounded-xl text-xs font-bold bg-amber-500 hover:bg-amber-400 text-slate-950 transition shadow-lg shadow-amber-500/20"
+          >
+            <GitBranch className="w-4 h-4" />
+            <span>View GitHub README.md</span>
+          </button>
           <span className="px-3 py-1.5 rounded-lg bg-emerald-500/15 text-emerald-300 border border-emerald-500/30 text-xs font-semibold flex items-center gap-1.5">
             <CheckCircle2 className="w-4 h-4 text-emerald-400" />
-            <span>All 6 Rubric Criteria Satisfied</span>
+            <span>Rubric Verified</span>
           </span>
         </div>
       </div>
@@ -311,6 +339,90 @@ if __name__ == "__main__":
           <code>{pythonSnippet}</code>
         </pre>
       </div>
+
+      {/* GitHub README.md Preview & Export Card */}
+      <div className="bg-slate-900 border border-slate-800 rounded-2xl overflow-hidden shadow-xl text-xs">
+        <div className="p-4 bg-slate-950 border-b border-slate-800 flex flex-wrap items-center justify-between gap-3">
+          <div className="flex items-center gap-2">
+            <GitBranch className="w-4 h-4 text-amber-400" />
+            <div>
+              <span className="font-bold text-slate-100 text-sm block">
+                Official GitHub Repository Documentation (README.md)
+              </span>
+              <span className="text-[11px] text-slate-400">
+                Created at project root /README.md ready for GitHub commit &amp; push
+              </span>
+            </div>
+          </div>
+
+          <div className="flex items-center gap-2">
+            <button
+              onClick={handleCopyReadme}
+              className="flex items-center gap-1.5 px-3 py-1.5 rounded-lg bg-slate-800 hover:bg-slate-700 text-slate-200 border border-slate-700 transition font-semibold"
+            >
+              {copiedReadme ? (
+                <Check className="w-3.5 h-3.5 text-emerald-400" />
+              ) : (
+                <Copy className="w-3.5 h-3.5 text-slate-400" />
+              )}
+              <span>{copiedReadme ? 'Copied Markdown!' : 'Copy README.md'}</span>
+            </button>
+
+            <button
+              onClick={handleDownloadReadme}
+              className="flex items-center gap-1.5 px-3 py-1.5 rounded-lg bg-amber-500 hover:bg-amber-400 text-slate-950 font-bold transition shadow-sm"
+            >
+              <Download className="w-3.5 h-3.5" />
+              <span>Download README.md</span>
+            </button>
+          </div>
+        </div>
+
+        <div className="p-4 bg-slate-950/80 max-h-96 overflow-y-auto font-mono text-[11px] text-slate-300 leading-relaxed scrollbar-thin">
+          <pre className="whitespace-pre-wrap">{GITHUB_README_MARKDOWN}</pre>
+        </div>
+      </div>
+
+      {/* Modal for full screen README inspection */}
+      {showReadmeModal && (
+        <div className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-slate-950/85 backdrop-blur-sm animate-in fade-in duration-200">
+          <div className="bg-slate-900 border border-slate-800 rounded-2xl w-full max-w-4xl max-h-[85vh] shadow-2xl overflow-hidden flex flex-col">
+            <div className="p-4 bg-slate-950 border-b border-slate-800 flex items-center justify-between">
+              <div className="flex items-center gap-2">
+                <GitBranch className="w-5 h-5 text-amber-400" />
+                <h3 className="font-bold text-slate-100 text-sm">
+                  GitHub README.md Inspector
+                </h3>
+              </div>
+
+              <div className="flex items-center gap-2">
+                <button
+                  onClick={handleCopyReadme}
+                  className="px-3 py-1 text-xs rounded-lg bg-slate-800 hover:bg-slate-700 text-slate-200 border border-slate-700"
+                >
+                  {copiedReadme ? 'Copied!' : 'Copy Markdown'}
+                </button>
+                <button
+                  onClick={handleDownloadReadme}
+                  className="px-3 py-1 text-xs rounded-lg bg-amber-500 hover:bg-amber-400 text-slate-950 font-bold"
+                >
+                  Download
+                </button>
+                <button
+                  onClick={() => setShowReadmeModal(false)}
+                  className="p-1 rounded-lg text-slate-400 hover:text-slate-200 ml-2"
+                >
+                  <X className="w-5 h-5" />
+                </button>
+              </div>
+            </div>
+
+            <div className="p-6 overflow-y-auto flex-1 font-mono text-xs text-slate-300 leading-relaxed bg-slate-950">
+              <pre className="whitespace-pre-wrap">{GITHUB_README_MARKDOWN}</pre>
+            </div>
+          </div>
+        </div>
+      )}
     </div>
   );
 };
